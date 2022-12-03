@@ -1,2 +1,2 @@
-# AdventOfCode2023
-Repo for storing all my asnwers to the advent of code 2023 event
+# advent-of-code-2022
+Repo for storing all my answers to the advent of code 2022 event
