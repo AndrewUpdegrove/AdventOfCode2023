@@ -68,21 +68,18 @@ function getResultStats(games) {
 
 export function test() {
     var input = readText('./day2/test.txt');
-    input.pop()
     const results = getGameStats(input);
     return results.reduce( (accumulator, a) => accumulator + a.score, 0);
 }
 
 export function solve1() {
     var input = readText('./day2/input.txt');
-    input.pop()
     const results = getGameStats(input);
     return results.reduce( (accumulator, a) => accumulator + a.score, 0);
 }
 
 export function solve2() {
     var input = readText('./day2/input.txt');
-    input.pop()
     const results = getResultStats(input);
     return results.reduce( (accumulator, a) => accumulator + a.score, 0);
 }

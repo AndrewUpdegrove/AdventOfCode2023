@@ -56,7 +56,6 @@ function getBadgePriority(sackSet) {
 
 export function test() {
     const input = readText('./day3/test.txt');
-    input.pop()
     const allSacks = input.map(line => buildSack(line));
     return getBadgePriority(allSacks)
 
@@ -64,14 +63,12 @@ export function test() {
 
 export function solve1() {
     const input = readText('./day3/input.txt');
-    input.pop()
     const allSacks = input.map(line => buildSack(line));
     return getDuplicateCount(allSacks)
 }
 
 export function solve2() {
     const input = readText('./day3/input.txt');
-    input.pop()
     const allSacks = input.map(line => buildSack(line));
     return getBadgePriority(allSacks)
 }

@@ -1,4 +1,4 @@
-import { test, solve1, solve2} from './day3/solution.js';
+import { test, solve1, solve2} from './day5/solution.js';
 
 //console.log(test())
 //console.log(solve1())
