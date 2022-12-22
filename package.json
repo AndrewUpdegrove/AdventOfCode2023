@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AndrewUpdegrove/AdventOfCode2023/issues"
   },
-  "homepage": "https://github.com/AndrewUpdegrove/AdventOfCode2023#readme"
+  "homepage": "https://github.com/AndrewUpdegrove/AdventOfCode2023#readme",
+  "dependencies": {
+    "cytoscape": "^3.23.0"
+  }
 }
